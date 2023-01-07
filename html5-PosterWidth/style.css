@@ -1,0 +1,22 @@
+img{
+    margin-top: 20px;
+    width: 33%;
+    height: 630px;
+    border: 1px solid gray;
+}
+html{
+   background-color: black;
+    
+}
+button{
+    display: block;
+    margin: auto;
+    width: 75px;
+    height: 35px;
+    background-color: black;
+    color: coral;
+}
+
+span{
+    color: yellow;
+}

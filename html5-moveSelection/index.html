@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     table{
+        border: 2px solid black;
+        width:75%;
+     }
+     td, th{
+        border:  1px solid black;
+     }
+
+     #thisFormResult, #thisDurationResult{
+        font-weight: bold;
+     }
+     #dropbox{
+        width: 500px;
+        height: 200px;
+        padding: 10px;
+        background-color: lemonchiffon;
+        color: blue;
+        font-weight: bold;
+        font-size: 20px;
+        border: 5px dashed black;
+     }
+
+     #preview{
+        font-size: 24px;
+     }
+     body{
+      background-color: azure;
+     }
+
+    </style>
+    <script src="//unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="dropbox">
+    將檔案拖曳到此或是點擊按鈕.
+    我幫你分析檔案!
+</div>
+<br>
+<input type="file" name="inputFile" id="inputFile" data-target="file-uploader" multiple>
+<br><br>
+<table>
+    <tr>
+        <th>檢查項目</th>
+        <th>需求規格</th>
+        <th>檢查結果</th>
+        <th>是否通過</th>
+    </tr>
+</table>
+<p>判斷影片長度格式解析度是否符合規定</p>
+</body>
+</html>

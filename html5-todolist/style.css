@@ -1,0 +1,19 @@
+meter{
+    width: 200px;
+    height: 38px;
+}
+#myRange{
+    width: 200px;
+    height: 38px;
+}
+progress{
+    width: 200px;
+    height: 38px;
+}
+#co{
+    text-align: center;
+    margin-top: 100px;
+}
+body{
+    background-color: antiquewhite;
+}

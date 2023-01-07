@@ -1,0 +1,20 @@
+body{
+    text-align:center;
+    background-color: black;
+    color: rgb(235, 147, 5);
+}
+h2{
+    /*預留歌曲名稱顯示空間*/
+    height:32px;
+    font-size:xx-large;
+    color: rgb(235, 147, 5);
+}
+
+input{
+    width: 60px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 147, 5);
+}

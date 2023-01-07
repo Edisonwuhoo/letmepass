@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, rgb(179, 13, 13), rgb(230, 230, 40), rgb(54, 219, 54));  
+        }
+        h1{
+            font-size: 80px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+
+        div{
+            position: absolute;
+            top: 10%;
+            left: 33%;
+        }
+        input{
+            display: block;
+            width: 200px;
+            height: 35px;
+            margin: auto;
+            border: 3px solid black;
+            background-color: rgb(240, 232, 230);
+          
+        }
+        input:hover{
+            background-color: rgb(201, 208, 208);
+            color: black;
+            font-weight: bolder;
+            border: 3px solid black;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            width: 45px;
+            height: 45px;
+            font-weight: 800;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h2>在此輸入你要取名字!我幫你算這小孩未來的長相</h2>
+    <input id="userInput" type="text" placeholder="在此輸入姓名，我幫你算命"> <button>算命</button>
+    <h1></h1>
+
+</div>
+
+    <script src="//unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+</body>
+</html>
